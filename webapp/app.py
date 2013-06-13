@@ -27,7 +27,7 @@ def plugin_index():
 
 @route('/plugins/<name>/<version>/download')
 def get_plugin(name, version):
-    return static_file( '%s-%s.zip' % (name, version), root='repo/', download=True) # download=True returns file with name as on disk
+    return static_file( '%s.%s.zip' % (name, version), root='repo/', download=True) # download=True returns file with name as on disk
 
 
 
