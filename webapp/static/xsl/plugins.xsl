@@ -76,7 +76,27 @@ td.menu_panel {
 
 </head>
 <body>
-<h2>Septima QGIS plugin repository</h2>
+<h1>Septima QGIS plugin repository</h1>
+<p>Dette er et QGIS plugin repository for plugins udviklet af <a href="http://www.septima.dk" target="_blank">Septima</a>. Plugins 
+herfra installeres lettest ved registrere repositoriet i QGIS. Bruger du QGIS's indbyggede plugin manager, vælger QGIS selv den
+rette version af pluginet, og QGIS giver dig information, når der er en ny version af pluginet klar til download.</p>
+<h3>Installation i QGIS version 1.8</h3>
+<ol>
+<li>Åbn Plugin Installeren (Klik "Plugins" -> "Fetch python plugins...")</li>
+<li>Under fanebladet "Repositories" klikkes "Add"</li>
+<li>Indtast et selvvalgt navn (feks Septima) og under URL indtastes http://qgis.septima.dk/plugins</li>
+<li>Plugins fra dette repository vil nu være listet under fanebladet "Plugins"</li>
+</ol>
+<h3>Installation i QGIS version 2.0 (og nyere udgaver af 1.9)</h3>
+<ol>
+<li>Åbn Plugin Manageren ("Klik Plugins" -> "Manage and Install Plugins")</li>
+<li>Vælg "Settings""</li>
+<li>Klik "Add" under "Plugin Repositories""</li>
+<li>Indtast et selvvalgt navn (feks Septima) og under URL indtastes http://qgis.septima.dk/plugins</li>
+<li>I Plugin Manageren vil plugins fra dette repository nu være listet under "Get more"</li>
+</ol>
+<h2>Manuel installation af plugins</h2>
+<p>Ønsker du af en eller anden årsag IKKE at bruge QGIS' indbyggede plugin manager, så kan de enkelte plugins downloades nedenfor.</p>
 <table>
 <tr>
 
